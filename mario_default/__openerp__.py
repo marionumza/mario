@@ -33,7 +33,8 @@ Customización Mario
     'author': 'jeo Software',
     'depends': [
         'l10n_ar_afipws_fe',        # Factura Electrónica Argentina
-        'l10n_ar_aeroo_einvoice',   # impresion de factura electronica aeroo
+#        'l10n_ar_aeroo_einvoice',   # impresion de factura electronica aeroo
+        'l10n_ar_aeroo_stamped_einvoice',  # factura sellada con sello de pagada
         'server_mode',              # habilitar uso de parametro server_mode = "some value" en config.
 
         'sale',
