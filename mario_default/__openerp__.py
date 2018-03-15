@@ -36,9 +36,16 @@ Customización Mario
         'support_branding_jeosoft',
         
         # aplicaciones
-        'sale',
-        'account_accountant',
-        'crm'
+        'sale', 'l10n_ar_aeroo_sale',  # ventas
+        'purchase', 'l10n_ar_aeroo_purchase',  # compras
+        'account_accountant',  # permisos para contabilidad
+        'l10n_ar_aeroo_stock',
+
+        'product_unique',
+        'account_reconciliation_menu',  # agrega boton en partner
+        'base_state_active',  # Deactivate US States
+        'account_fix',  # Account Fixes
+        'account_invoice_tax_wizard' # add manual taxes on invoices
     ],
 
     'data': [
@@ -52,7 +59,7 @@ Customización Mario
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-iomaq', 'branch': '9.0'},
+        {'usr': 'jobiols', 'repo': 'mario', 'branch': '9.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
 
     ],
@@ -60,7 +67,7 @@ Customización Mario
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
-        # {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
+        {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]    
     
     
